@@ -238,11 +238,11 @@ button:hover{
         top: 0px;
         right: 0px;
         z-index: -1;
-        height: 10%;
-        animation: circlesmove 120s ease infinite
+        height: 20%;
+        animation: circlesmove 100s ease infinite
     }
     .circle img{
-        height: 60%;
+        height: 20%;
     }
     .circle2{
         position: absolute;
