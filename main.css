@@ -619,16 +619,88 @@ iframe{
 }
 /* SVG animations */
 
-#surfboard2{
-    animation: float 1s infinite;
+
+#Vector_25{
+    animation: move 15s infinite linear;
+    transform-origin: center;
+    width: 3rem;
+}
+#Vector_26{
+    animation: movedown 10s infinite linear;
+    transform-origin: center;
+    width: 3rem;
+}
+#Vector_27{
+    animation: move 10s infinite linear;
+    transform-origin: center;
+    width: 3rem;
+}
+#Vector_28{
+    animation: movedown 10s infinite linear;
+    transform-origin: center;
+    width: 3rem;
+}
+
+#Plant{
+    animation: sway 5s infinite linear;
     transform-origin: center;
 }
 
-@keyframes float{
-    from{
-        -webkit-width: 100px
-    }
-  to{
-    -webkit-width: 120px
-  }
+#Vector{
+    animation: planetmove 10s infinite linear;
+    transform-origin: center;
 }
+
+#Vector_2{
+    animation: planetmove 10s infinite linear;
+    transform-origin: center;
+}
+#Vector_6{
+    animation: move 10s infinite linear;
+    transform-origin: center;
+}
+@keyframes move{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-30px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+@keyframes planetmove{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(10px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+@keyframes movedown{
+    0%{
+        transform: translatey(-40px);
+    }
+    50%{
+        transform: translatey(0px);
+    }
+    100%{
+        transform: translatey(-40px);
+    }
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
+
