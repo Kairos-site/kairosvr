@@ -435,8 +435,8 @@ button:hover{
         display: block;
         text-align: center;
     }
-    .aboutimg img{
-        width: 90vw;
+    .about svg{
+        width: 80vw;
         margin: 0 auto;
         margin-top: 2rem;
     }
